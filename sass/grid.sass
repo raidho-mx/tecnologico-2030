@@ -1,0 +1,250 @@
+.wrap
+	margin: 0 auto
+	position: relative
+	padding-left: 10%
+	padding-right: 10%
+	@media (max-width: $tablet_b)
+		padding-left: 0
+		padding-right: 0
+		width: 85%
+
+.l-wrap
+	margin: 0 auto
+	position: relative
+	padding-left: 10%
+	@media (max-width: $tablet_b)
+		padding-left: 0
+		width: 85%
+
+.l-wrapp-hidden-widescreen
+	margin: 0 auto
+	position: relative
+	padding-left: 10%
+	padding-right: 10%
+	.has-img
+		overflow: hidden
+		position: relative
+	@media (max-width: $large_b)
+		padding-right: 0
+		.has-img
+			left: 30px
+	@media (max-width: $tablet_b)
+		padding-left: 0
+		padding-right: 0
+		width: 85%
+		.has-img
+			left: 0
+
+// SPACE
+.pt30
+	padding-top: 30px
+
+.pb30
+	padding-bottom: 30px
+
+.pt60
+	padding-top: 60px
+	@media (max-width: $tablet_b)
+		padding-top: 30px
+
+.pb60
+	padding-bottom: 60px
+	@media (max-width: $tablet_b)
+		padding-bottom: 30px
+
+.pb80
+	padding-bottom: 80px
+	@media (max-width: $tablet_b)
+		padding-bottom: 30px
+
+.pb80-mobile
+	padding-bottom: 80px
+	@media (max-width: $tablet_b)
+		padding-bottom: 0px
+
+.ptb60
+	padding: 60px 0
+	@media (max-width: $tablet_b)
+		padding: 30px 0
+
+
+.ptb40
+	padding: 40px 0
+	@media (max-width: $tablet_b)
+		padding: 30px 0
+
+.pb40
+	padding-bottom: 40px
+	@media (max-width: $tablet_b)
+		padding-bottom: 20px
+
+.pb30
+	padding-bottom: 30px
+	@media (max-width: $tablet_b)
+		padding-bottom: 20px
+
+.p20
+	padding: 20px
+
+.p30
+	padding: 30px
+
+.pb20
+	padding-bottom: 20px
+
+.pt20
+	padding-top: 20px
+
+.pb100
+	padding-bottom: 100px
+	@media (max-width: $tablet_b)
+		padding-bottom: 30px
+
+.pt100
+	padding-top: 100px
+	@media (max-width: $tablet_b)
+		padding-top: 30px
+
+.mt30
+	margin-top: 30px
+	@media (max-width: $tablet_b)
+		margin-top: 20px
+
+.mt60
+	margin-top: 60px
+	@media (max-width: $tablet_b)
+		margin-top: 30px
+
+.mb10
+	margin-bottom: 10px
+
+.mb10
+	margin-bottom: 10px
+
+.mb20
+	margin-bottom: 20px
+
+.mb40
+	margin-bottom: 40px
+	@media (max-width: $tablet_b)
+		margin-bottom: 30px
+
+.mb50
+	margin-bottom: 50px
+	@media (max-width: $tablet_b)
+		margin-bottom: 30px
+
+.pb80
+	padding-bottom: 80px
+	@media (max-width: $tablet_b)
+		padding-bottom: 30px
+
+.mb80
+	margin-bottom: 80px
+	@media (max-width: $tablet_b)
+		margin-bottom: 30px
+
+.mb100
+	margin-bottom: 100px
+	@media (max-width: $tablet_b)
+		margin-bottom: 30px
+
+.mr30
+	margin-right: 30px
+	@media (max-width: $tablet_b)
+		margin-right: 0
+
+.mr30:last-child
+	margin-right: 0
+
+// is right
+
+.pr70
+	@media (min-width: $tablet_b)
+		padding-right: 70px
+
+
+// GRID
+.is-one-col-inline
+	width: 100%
+
+.is-half-inline
+	@media (max-width: $phone_b)
+		width: 49%
+
+.is-one-third-inline
+	width: 33.3333%
+	@media (max-width: $tablet_b)
+		width: 100%
+
+.is-two-thirds-inline
+	width: 66.6666%
+	@media (max-width: $tablet_b)
+		width: 100%
+
+// MAX WIDTH
+.max230
+	max-width: 230px
+
+.max520
+	max-width: 520px
+
+.max780
+	max-width: 780px
+
+.min90
+	min-height: 90px
+	@media (max-width: $tablet_b)
+		min-height: auto
+
+.has-columns
+	margin-left: -0.75rem
+	margin-right: -0.75rem
+	margin-top: -0.75rem
+
+.has-column
+	padding: 0.75rem
+
+.size-0
+	font-size: 0
+
+.column.is-inline-block
+	vertical-align: top
+	display: inline-block
+	@media (max-width: $tablet_b)
+		display: block!important
+
+// MASONRY
+
+.grid-sizer,
+.grid-item
+	width: 33.33%
+	@media (max-width: $tablet_b)
+		width: 100%
+
+.is-relative
+	position: relative
+
+.is-absolute
+	position: absolute
+	top: 0
+
+.is-centered
+	margin: 0 auto
+
+.is-vertical-centered
+	align-items: center
+	display: flex
+
+.is-right
+	@media (min-width: $phone_b)
+		justify-content: flex-end
+		margin-left: auto
+
+.is-right-mobile
+	justify-content: flex-end
+	margin-left: auto
+
+@media (min-width: 1200px)
+	.container
+		max-width: 1280px
