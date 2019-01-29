@@ -70,3 +70,16 @@ button:focus, a:focus {
 
 a.c-white:hover {
 	color: white!important;}
+
+.btn-white-rounded{
+	text-decoration: none;
+	background: white;
+	color: black;
+	font-weight: bold;
+	padding: 20px 60px;
+	border-radius: 60px;}
+
+.btn-white-rounded:hover{
+	text-decoration: none;
+	color: black;
+}
